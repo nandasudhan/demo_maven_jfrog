@@ -6,13 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sonart</groupId>
-  <artifactId>nanda-sonar_jfrog-project</artifactId>
+  <artifactId>nanda-sonar_nexus-project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>nanda-sonar_jfrog-project</name>
-  <description>Sample Maven project integrated with Jenkins, SonarQube, and jfrog</description>
-  <url>http://13.205.133.71:8081</url>
+  <description>Sample Maven project integrated with Jenkins, SonarQube, and nexus</description>
+  <url>http://13.205.167.73:8081</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -31,12 +31,12 @@
 
   <distributionManagement>
     <repository>
-      <id>central</id>
-      <url>http://13.205.133.71:8081/artifactory/libs-release-local/</url>
+      <id>nexus</id>
+      <url>http://13.205.167.73:8081/repository/maven-releases123/</url>
     </repository>
     <snapshotRepository>
-      <id>central</id>
-      <url>http://13.205.133.71:8081/artifactory/libs-release-local/</url>
+      <id>nexus</id>
+      <url>http://13.205.167.73:8081/repository/maven-releases123/</url>
     </snapshotRepository>
   </distributionManagement>
 
