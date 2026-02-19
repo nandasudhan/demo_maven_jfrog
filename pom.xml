@@ -35,8 +35,8 @@
       <url>http://13.205.133.71:8081/artifactory/libs-release-local/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus</id>
-      <url>http://13.205.133.71:8081/artifactory/libs-snapshot-local/</url>
+      <id>central</id>
+      <url>http://13.205.133.71:8081/artifactory/libs-release-local/</url>
     </snapshotRepository>
   </distributionManagement>
 
