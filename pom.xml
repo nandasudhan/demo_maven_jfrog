@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sonart</groupId>
-  <artifactId>tukaram-sonarqube-project</artifactId>
+  <artifactId>nanda-sonar_jfrog-project</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
