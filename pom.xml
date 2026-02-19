@@ -36,7 +36,7 @@
     </repository>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://http://13.205.133.71:8081/artifactory/libs-snapshot-local/</url>
+      <url>http://13.205.133.71:8081/artifactory/libs-snapshot-local/</url>
     </snapshotRepository>
   </distributionManagement>
 
